@@ -5,4 +5,4 @@ def call(string repoUrl) {
     url: repoUrl,
     branch: 'main'
   )
-  
+}
