@@ -2,7 +2,7 @@ def call(string repoUrl) {
   git (
     changelog: false,
     poll: false,
-    url: repoUrl
+    url: repoUrl,
     branch: 'main'
   )
   
